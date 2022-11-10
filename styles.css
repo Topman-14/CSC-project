@@ -1,0 +1,38 @@
+body{
+    height:100vh;
+    background: linear-gradient(120deg, rgb(203, 203, 248), rgb(240, 197, 197));
+    padding:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    margin-top: 50px;
+    text-align:center;
+}
+.input{
+    max-width: 500px;
+    margin: 50px auto;
+    display: flex;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.432);
+    justify-content: space-around;
+    background: white;
+    padding: 30px 15px 30px 15px;
+    border-radius: 20px;
+}
+
+input{
+    width:40%;
+    text-align:center;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding:5px;
+}
+h2{
+    text-align: center;
+}
+#result{
+    width:150px;
+    margin:10px auto;
+    font-weight: 800;
+    font-size: large;
+    border:none;
+}
